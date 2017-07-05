@@ -2,7 +2,7 @@
 
 ---
 
-![Logo](stopwordsimpl.svg.png)
+![Logo2](stopwordsimpl.svg.png)
 
 ---
 
