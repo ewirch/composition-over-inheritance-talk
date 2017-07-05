@@ -1,0 +1,10 @@
+strict digraph {
+	graph [splines=ortho]
+	node [shape=box,style=rounded]
+	StopWordsWebService -> QueryStopWordsFacadeTransactional
+	StopWordsWebService -> QueryStopWordsFacadeChanneled
+	StopWordsWebService -> EditStopWordsFacade
+	QueryStopWordsFacadeTransactional -> StopWordsServiceImpl
+	QueryStopWordsFacadeChanneled -> StopWordsServiceImpl
+	EditStopWordsFacade -> StopWordsServiceImpl
+}
