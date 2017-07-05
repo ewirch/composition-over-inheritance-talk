@@ -1,7 +1,7 @@
 strict digraph {
 	graph [splines=ortho]
 	node [shape=box,style=rounded]
-	StopWordsWebService4 -> QueryStopWordsFacadeTransactional
+	StopWordsWebService -> QueryStopWordsFacadeTransactional
 	StopWordsWebService -> QueryStopWordsFacadeChanneled
 	StopWordsWebService -> EditStopWordsFacade
 	QueryStopWordsFacadeTransactional -> StopWordsServiceImpl
