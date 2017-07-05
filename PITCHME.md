@@ -2,7 +2,7 @@
 
 ---
 
-![Logo](assets/stopwordsimpl.png)
+--?include=stopwordsimpl.md
 
 ---
 
